@@ -4,7 +4,6 @@ import initFrame from './connectors/ConnectorFrame'
 import initInjected from './connectors/ConnectorInjected'
 import initPortis from './connectors/ConnectorPortis'
 import initProvided from './connectors/ConnectorProvided'
-import initTorus from './connectors/ConnectorTorus'
 import initWalletConnect from './connectors/ConnectorWalletConnect'
 import initWalletLink from './connectors/ConnectorWalletLink'
 
@@ -19,7 +18,6 @@ export function getConnectors(
     injected: [initInjected, null],
     portis: [initPortis, null],
     provided: [initProvided, null],
-    torus: [initTorus, null],
     walletconnect: [initWalletConnect, null],
     walletlink: [initWalletLink, null],
   }
